@@ -1,0 +1,36 @@
+﻿body
+{
+    margin: auto;
+    background-color:rgb(135, 206, 235) ;
+}
+
+.header{
+    width: 70%;
+    height: 260px;
+    text-align: center;
+    margin: auto;
+}
+.banner .image{
+    width: 950px;
+    height:500px;
+    
+    margin:20px auto;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.button{
+    margin: 10px auto 10px auto;
+    text-align:center;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    border-width: 1px;
+    border-color: rgb(255,192,203);
+    background-color: rgb(250,218,221);
+}
+
+.button:hover{
+    box-shadow: 1px 1px 10px rgba(139,0,255 ,1);
+}
