@@ -39,6 +39,7 @@
   border-color: rgb(255,192,203);
   background-color: rgb(250,218,221);
   padding: 10px 80px;
+  font-size: 18px;
 }
 
 .button:hover {
@@ -61,5 +62,9 @@
 @media screen and (max-width: 1023px) {
     .footer {
         display: none;
+    }
+
+    .button {
+      font-size: 30px;
     }
 }
