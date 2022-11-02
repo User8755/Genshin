@@ -1,10 +1,10 @@
 ﻿.root {
   background-color:rgb(135, 206, 235);
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 .page {
-  max-width: 1280px;
   margin: 50px auto 0;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .header {
-  width: 80%;
+  max-width: 80%;
   border-bottom: 1px solid rgba(139, 0 ,255, .1);
   margin: 0 auto;
 
@@ -47,12 +47,12 @@
 }
 
 .footer {
-  margin: 0;
+  margin: 0 auto;
   background-color: black;
   color: white;
   height: 100px;
   padding-top: 50px;
-  gap: 20px;
+  max-width: 1280px;
 }
 
 .pharagrah {
