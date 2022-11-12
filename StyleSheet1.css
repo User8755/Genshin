@@ -48,6 +48,7 @@
 
 .button:active {
   background-color: rgba(250,218,221, .5);
+  box-shadow: 5px 5px 15px rgba(139, 0 ,255, .8);
 }
 
 .footer {
