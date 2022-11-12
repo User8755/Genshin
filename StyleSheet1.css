@@ -35,8 +35,7 @@
 .button {
   margin: 20px auto 0;
   border-radius: 20px;
-  border-width: 1px;
-  border-color: rgb(255,192,203);
+  border: 1px solid rgb(255,192,203);
   background-color: rgb(250,218,221);
   padding: 10px 80px;
   font-size: 18px;
@@ -44,6 +43,7 @@
 
 .button:hover {
   box-shadow: 1px 1px 10px rgba(139, 0 ,255, .8);
+  background-color: rgba(250,218,221, .7);
 }
 
 .footer {
