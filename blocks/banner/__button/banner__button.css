@@ -1,0 +1,26 @@
+
+.banner__button {
+  margin: 20px auto 0;
+  border-radius: 20px;
+  border: 1px solid rgb(255,192,203);
+  background-color: rgb(250,218,221);
+  padding: 10px 80px;
+  font-size: 18px;
+  box-shadow: 2px 3px rgb(0, 0, 0, .3);
+}
+
+.banner__button:hover {
+  box-shadow: 1px 1px 10px rgba(139, 0 ,255, .8);
+  background-color: rgba(250,218,221, .7);
+}
+
+.banner__button:active {
+  background-color: rgba(250,218,221, 0.9);
+  box-shadow: 5px 5px 15px rgba(139, 0 ,255, .8);
+}
+
+@media screen and (max-width: 1023px) {
+    .banner__button {
+      font-size: 30px;
+    }
+}
