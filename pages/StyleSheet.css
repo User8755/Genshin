@@ -7,6 +7,7 @@
 @import url(../blocks/page/page.css);
 /* Секция banner */
 @import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__hero-name/banner__hero-name.css);
 @import url(../blocks/banner/__image/banner__image.css);
 @import url(../blocks/banner/__button/banner__button.css);
 /* Блок footer */
