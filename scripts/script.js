@@ -11,7 +11,7 @@ const randomimg = (list) => {
 }
 const renderImg = (item) => {
     const cloneGrid = template.cloneNode(true);
-    cloneGrid.querySelector ('.mimipicture').src = item;
+    cloneGrid.querySelector ('.minipicture').src = item;
     return cloneGrid
 };
 
