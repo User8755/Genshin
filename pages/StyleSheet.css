@@ -13,3 +13,5 @@
 /* Блок footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__pharagrah/footer__pharagrah.css);
+@import url(../blocks/grid/grid.css);
+@import url(../blocks/mimipicture/mimipicture.css);
